@@ -125,6 +125,7 @@ a {
     display: flex;
     padding: 70px 0 55px 0;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .slide-text {
@@ -149,12 +150,23 @@ a {
 .slide-text button {
     border: 2px solid #fff;
     background: none;
-    padding: 8px 20px;
+    padding: 10px 20px 7px 20px;
     color: #fff;
     text-transform: uppercase;
     font-size: 22px;
     font-family: 'bebasbold';
     border-radius: 8px;
+}
+
+@media(max-width: 600px) {
+    #slider {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #slider h2 {
+        margin: 15px;
+    }
 }
 
 @media(max-width: 720px) {
