@@ -217,6 +217,46 @@ a {
     font-size: 22px;
 }
 
+
+.footer-top-bg {
+    background: #39c2b7;
+    padding: 0 15px;
+}
+
+#footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:40px 0; 
+}
+
+#footer-top h2 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-family: 'bebasbold';
+    font-size: 30px;
+}
+
+#footer-top a {
+    color: #fff;
+    margin-bottom: 15px;
+    display: block;
+}
+
+#footer-top ul li:last-child a {
+    margin: 0;
+}
+
+#footer-bottom {
+    background: #2da89b;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#footer-bottom a {
+    color: #fff;
+}
+
 @media(max-width: 600px) {
     #slider {
         padding: 15px;
